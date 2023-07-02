@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="197de4a547332110b75a5e52e36d4378" label="University" max_length="40" name="x_1052872_needit_university" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="students" max_length="32" name="u_reference_2" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="University Name" mandatory="true" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="University Name" mandatory="true" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="University Code" mandatory="true" max_length="10" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="u_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Course_code" max_length="40" name="u_string_7" type="string">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="u_reference_2"/>
+        </index>
+    </element>
+</database>

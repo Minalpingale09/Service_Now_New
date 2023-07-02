@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="033ebc6547732110b75a5e52e36d4373" label="Student_table_general" max_length="40" name="x_1052872_needit_student_table_general" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Student Name" max_length="50" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Enrollment_No" max_length="10" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="20" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="University_code" max_length="10" name="u_string_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Registered Course Code" max_length="10" name="u_string_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Grades" max_length="10" name="u_string_6" type="string"/>
+    </element>
+</database>
