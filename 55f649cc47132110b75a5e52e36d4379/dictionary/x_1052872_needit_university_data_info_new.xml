@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0812f2ea47332110b75a5e52e36d43a8" extends="sys_import_set_row" label="University data info new" max_length="40" name="x_1052872_needit_university_data_info_new" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Available seats" label="Available seats" max_length="40" name="u_available_seats" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=location" label="location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=No of seats occupied" label="No of seats occupied" max_length="40" name="u_no_of_seats_occupied" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=No. of seats" label="No. of seats" max_length="40" name="u_no__of_seats" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Total available seats" label="Total available seats" max_length="40" name="u_total_available_seats" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=University code" label="University code" max_length="40" name="u_university_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=University Name" label="University Name" max_length="40" name="u_university_name" type="string"/>
+    </element>
+</database>

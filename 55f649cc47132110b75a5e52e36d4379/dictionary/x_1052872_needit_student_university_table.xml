@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="52845f6d477b2110b75a5e52e36d43b4" extends="sys_import_set_row" label="Student_university_table" max_length="40" name="x_1052872_needit_student_university_table" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Course_code" label="Course_code" max_length="40" name="u_course_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Course Name" label="Course Name" max_length="40" name="u_course_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Grade" label="Grade" max_length="40" name="u_grade" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Grades" choice="1" label="Grade" max_length="50" name="u_grades" type="string">
+            <choice>
+                <element inactive_on_update="false" label="A" sequence="0" value="Choice 1"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="A"/>
+                <element inactive_on_update="false" label="B" sequence="1" value="Choice 2"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="B"/>
+                <element inactive_on_update="false" label="C" sequence="2" value="Choice 3"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="C"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=location" label="location" max_length="50" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=PRN No." label="Student id" max_length="40" name="u_prn_no_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Registered_course_code" label="Registered_course_code" max_length="40" name="u_registered_course_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student id" label="Student id" max_length="40" name="u_student_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student_Name" label="Student name" max_length="40" name="u_student_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=university_code" label="university_code" max_length="40" name="u_university_code" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="university3" label="University3" language="en" table="x_1052872_needit_student_university_info">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>university3</element>
+            <help/>
+            <hint/>
+            <label>University3</label>
+            <language>en</language>
+            <name>x_1052872_needit_student_university_info</name>
+            <plural>University3s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-12 09:13:33</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>University3</sys_name>
+            <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+            <sys_update_name>sys_documentation_x_1052872_needit_student_university_info_university3_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-07-12 09:13:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

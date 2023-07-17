@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1052872_needit.GetUniversityName</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetUniversityName</name>
+        <script><![CDATA[var GetUniversityName = Class.create();
+GetUniversityName.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getUniversityName: function() {
+		var uniRecord = new GlideRecord('x_1052872_needit_univerity_load_data_university');
+		uniRecord.get(this.getParameter('sysparm_userID'));
+		//gs.addInfoMessage(this.getParameter('sysparm_userID'));
+		//gs.addInfoMessage(uniRecord.u_university_name);
+		return uniRecord.u_university_name + '';
+	},
+    type: 'GetUniversityName'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 07:59:46</sys_created_on>
+        <sys_id>4e51458a47b32110b75a5e52e36d4350</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>GetUniversityName</sys_name>
+        <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+        <sys_update_name>sys_script_include_4e51458a47b32110b75a5e52e36d4350</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-04 08:24:43</sys_updated_on>
+    </sys_script_include>
+</record_update>

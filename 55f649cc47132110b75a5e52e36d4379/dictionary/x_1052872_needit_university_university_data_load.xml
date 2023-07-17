@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f66a9fe147bb2110b75a5e52e36d4360" extends="sys_import_set_row" label="university_university_data_load" max_length="40" name="x_1052872_needit_university_university_data_load" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Course_code" label="Course_code" max_length="40" name="u_course_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Description" label="Description" max_length="40" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=grade" label="grade" max_length="40" name="u_grade" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=location" label="location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=students" label="students" max_length="40" name="u_students" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=University_code" label="University_code" max_length="40" name="u_university_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=University Name" label="University Name" max_length="40" name="u_university_name" type="string"/>
+    </element>
+</database>

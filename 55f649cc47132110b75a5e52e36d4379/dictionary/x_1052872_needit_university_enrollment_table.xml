@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="86a5850747772110b75a5e52e36d433a" label="My University enrollment table" max_length="40" name="x_1052872_needit_university_enrollment_table" type="collection">
+        <element label="No of seats occupied" max_length="10" name="no_of_seats" type="string"/>
+        <element label="Total available seats" max_length="10" name="total_available_seats" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="University code" max_length="50" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="University name" max_length="70" name="u_string_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="100" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="location" max_length="50" name="u_string_4" type="string"/>
+    </element>
+</database>

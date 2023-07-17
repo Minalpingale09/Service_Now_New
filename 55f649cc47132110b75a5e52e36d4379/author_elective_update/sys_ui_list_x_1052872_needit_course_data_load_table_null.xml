@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1052872_needit_course_data_load_table" version="2" view="">
+        <sys_ui_list action="DELETE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1052872_needit_course_data_load_table</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>2ee6932147bb2110b75a5e52e36d43ce</sys_id>
+            <sys_mod_count/>
+            <sys_name>x_1052872_needit_course_data_load_table</sys_name>
+            <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2023-07-03 05:35:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</application>
+        <file_path/>
+        <instance_id>fdeee233dbd75b4489535d00cf96193d</instance_id>
+        <instance_name>dev66333</instance_name>
+        <name>sys_ui_list_x_1052872_needit_course_data_load_table_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1052872_needit_course_data_load_table" version="2" view=""><sys_ui_list action="DELETE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1052872_needit_course_data_load_table</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>2ee6932147bb2110b75a5e52e36d43ce</sys_id><sys_mod_count/><sys_name>x_1052872_needit_course_data_load_table</sys_name><sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package><sys_policy/><sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2023-07-03 05:35:05</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-2147339395</payload_hash>
+        <record_name>x_1052872_needit_course_data_load_table</record_name>
+        <reverted_from/>
+        <source>8a0c990047d32110b75a5e52e36d4378</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-03 05:35:05</sys_created_on>
+        <sys_id>7ee7d36147bb2110b75a5e52e36d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1891a3f56dd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 05:35:05</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>b6e7d361b4bb21105cfcf7efce92a8d8</update_guid>
+        <update_guid_history>b6e7d361b4bb21105cfcf7efce92a8d8:-2147339395</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-03 05:38:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>07746489adfc4d208bf9a56aaa2f5100</sys_id>
+        <sys_metadata>8c781f6147bb2110b75a5e52e36d4384</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1052872_needit_course_data_load_table</sys_name>
+        <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+        <sys_parent display_value="">40781f6147bb2110b75a5e52e36d4333</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+        <sys_scope_delete display_value="">411510a8df604654945e7dca5ec03b61</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1052872_needit_course_data_load_table_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1052872_needit_course_data_load_table_null">7ee7d36147bb2110b75a5e52e36d43d8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 05:38:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

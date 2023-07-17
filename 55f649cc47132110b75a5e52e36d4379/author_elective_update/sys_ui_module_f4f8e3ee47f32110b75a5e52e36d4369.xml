@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Student &amp; Uiversity">f4f8e3ee47f32110b75a5e52e36d4366</application>
+        <filter/>
+        <name>University &amp; Students</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1052872_needit.university_student_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-06 09:23:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f4f8e3ee47f32110b75a5e52e36d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>University &amp; Students</sys_name>
+        <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+        <sys_update_name>sys_ui_module_f4f8e3ee47f32110b75a5e52e36d4369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-06 09:23:25</sys_updated_on>
+        <table>x_1052872_needit_university_student</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</application>
+        <file_path/>
+        <instance_id>fdeee233dbd75b4489535d00cf96193d</instance_id>
+        <instance_name>dev66333</instance_name>
+        <name>sys_ui_module_f4f8e3ee47f32110b75a5e52e36d4369</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Student &amp; Uiversity">f4f8e3ee47f32110b75a5e52e36d4366</application><filter/><name>University &amp; Students</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1052872_needit.university_student_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-06 09:23:25</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f4f8e3ee47f32110b75a5e52e36d4369</sys_id><sys_mod_count>0</sys_mod_count><sys_name>University &amp; Students</sys_name><sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package><sys_policy/><sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope><sys_update_name>sys_ui_module_f4f8e3ee47f32110b75a5e52e36d4369</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-06 09:23:25</sys_updated_on><table>x_1052872_needit_university_student</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1512799489</payload_hash>
+        <record_name>University &amp; Students</record_name>
+        <reverted_from/>
+        <source>8a0c990047d32110b75a5e52e36d4378</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-06 09:23:25</sys_created_on>
+        <sys_id>b4f8e3ee47f32110b75a5e52e36d436c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1892a8375c90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-06 09:23:25</sys_updated_on>
+        <type>Module</type>
+        <update_guid>fcf8e3ee6bf32110c0ca8217a04b546b</update_guid>
+        <update_guid_history>fcf8e3ee6bf32110c0ca8217a04b546b:-1512799489</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-06 09:48:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>277e5e057cba4d498784a4570e032411</sys_id>
+        <sys_metadata>f4f8e3ee47f32110b75a5e52e36d4369</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>University &amp; Students</sys_name>
+        <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+        <sys_scope_delete display_value="">411510a8df604654945e7dca5ec03b61</sys_scope_delete>
+        <sys_update_name>sys_ui_module_f4f8e3ee47f32110b75a5e52e36d4369</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_f4f8e3ee47f32110b75a5e52e36d4369">b4f8e3ee47f32110b75a5e52e36d436c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-06 09:48:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

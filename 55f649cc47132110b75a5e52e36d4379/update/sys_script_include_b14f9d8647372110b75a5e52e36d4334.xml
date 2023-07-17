@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_1052872_needit.GetCourseName</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetCourseName</name>
+        <script><![CDATA[var GetCourseName = Class.create();
+GetCourseName.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	
+    getCourseName: function() {
+		var courseRecord = new GlideRecord('x_1052872_needit_course_file_latest_load');
+		courseRecord.get(this.getParameter('sysparm_userID'));
+		
+		return courseRecord.u_course_name + '';
+	},
+ 
+
+    type: 'GetCourseName'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-04 10:12:02</sys_created_on>
+        <sys_id>b14f9d8647372110b75a5e52e36d4334</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>GetCourseName</sys_name>
+        <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+        <sys_update_name>sys_script_include_b14f9d8647372110b75a5e52e36d4334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-12 06:12:34</sys_updated_on>
+    </sys_script_include>
+</record_update>

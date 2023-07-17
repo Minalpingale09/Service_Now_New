@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bef4a3ad47bb2110b75a5e52e36d433c" extends="sys_import_set_row" label="Course_university_data" max_length="40" name="x_1052872_needit_course_file_latest_load" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Course_code" label="Course_code" max_length="40" name="u_course_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Course Name" label="Course Name" max_length="40" name="u_course_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=University_code" label="University_code" max_length="40" name="u_university_code" type="string"/>
+    </element>
+</database>

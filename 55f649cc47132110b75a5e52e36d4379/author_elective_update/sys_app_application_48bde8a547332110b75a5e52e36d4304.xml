@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>University</name>
+        <order>100</order>
+        <roles>x_1052872_needit.university_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-02 17:11:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>48bde8a547332110b75a5e52e36d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>University</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+        <sys_update_name>sys_app_application_48bde8a547332110b75a5e52e36d4304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-02 17:11:20</sys_updated_on>
+        <title>University</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</application>
+        <file_path/>
+        <instance_id>fdeee233dbd75b4489535d00cf96193d</instance_id>
+        <instance_name>dev66333</instance_name>
+        <name>sys_app_application_48bde8a547332110b75a5e52e36d4304</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>University</name><order>100</order><roles>x_1052872_needit.university_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-02 17:11:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>48bde8a547332110b75a5e52e36d4304</sys_id><sys_mod_count>0</sys_mod_count><sys_name>University</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package><sys_policy/><sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope><sys_update_name>sys_app_application_48bde8a547332110b75a5e52e36d4304</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-02 17:11:20</sys_updated_on><title>University</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1817695917</payload_hash>
+        <record_name>University</record_name>
+        <reverted_from/>
+        <source>8a0c990047d32110b75a5e52e36d4378</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-02 18:49:37</sys_created_on>
+        <sys_id>a724052d47732110b75a5e52e36d43c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18917f062660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-02 18:49:37</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>c0bde8a5a1332110c077ddcffbd22807</update_guid>
+        <update_guid_history>c0bde8a5a1332110c077ddcffbd22807:1817695917,4bf3c5e9d1732110016d9d85e42ca876:-1450198924,c0bde8a5a1332110c077ddcffbd22807:1817695917</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="University">99f4010747772110b75a5e52e36d4383</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-07 10:43:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>6f2860f551e7443d9b6701ce020d14b9</sys_id>
+        <sys_metadata>48bde8a547332110b75a5e52e36d4304</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>University</sys_name>
+        <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+        <sys_scope_delete display_value="">411510a8df604654945e7dca5ec03b61</sys_scope_delete>
+        <sys_update_name>sys_app_application_48bde8a547332110b75a5e52e36d4304</sys_update_name>
+        <sys_update_version display_value="sys_app_application_48bde8a547332110b75a5e52e36d4304">a724052d47732110b75a5e52e36d43c7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-07 10:43:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

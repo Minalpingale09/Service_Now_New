@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e7eaa40047443110b75a5e52e36d4368" label="My info_table" max_length="40" name="x_1052872_needit_info_table" type="collection">
+        <element choice="3" dependent="university_name" dependent_on_field="university_name" display="true" label="Course name" max_length="32" name="course_name" reference="x_1052872_needit_course_enrollment_table" type="reference" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element label="Student name" max_length="32" name="student_name" reference="x_1052872_needit_student_table_general" type="reference"/>
+        <element label="University name" max_length="32" name="university_name" reference="x_1052872_needit_university_enrollment_table" type="reference"/>
+        <index name="index">
+            <element name="course_name"/>
+        </index>
+        <index name="index2">
+            <element name="student_name"/>
+        </index>
+        <index name="index3">
+            <element name="university_name"/>
+        </index>
+    </element>
+</database>

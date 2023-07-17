@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d6a89b3747332110b75a5e52e36d4398" label="My University + course" max_length="40" name="x_1052872_needit_university_and_course_enrollment" type="collection">
+        <element display="true" label="Course name" max_length="50" name="course_name" type="string"/>
+        <element label="University name" max_length="50" name="university_name" type="string"/>
+    </element>
+</database>

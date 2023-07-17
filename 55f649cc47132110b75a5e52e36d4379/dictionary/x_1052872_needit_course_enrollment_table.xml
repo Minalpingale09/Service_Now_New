@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="6bad304f47372110b75a5e52e36d431d" label="My Course enrollment table" max_length="40" name="x_1052872_needit_course_enrollment_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Course code" max_length="10" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" dependent="u_string_1" dependent_on_field="u_string_1" display="true" label="Course Name" max_length="50" name="u_string_3" type="string" use_dependent_field="true"/>
+    </element>
+</database>

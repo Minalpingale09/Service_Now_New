@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="515f162c47c03110b75a5e52e36d434a" label="My Student+university info" max_length="40" name="x_1052872_needit_student_university_info" type="collection">
+        <element label="Student name" max_length="50" name="student_name" type="string"/>
+        <element display="true" label="University1" max_length="50" name="university1" type="string"/>
+        <element label="University2" max_length="50" name="university2" type="string"/>
+        <element label="University3" max_length="50" name="university3" type="string"/>
+        <element label="University alloted" max_length="50" name="university_alloted" type="string"/>
+    </element>
+</database>

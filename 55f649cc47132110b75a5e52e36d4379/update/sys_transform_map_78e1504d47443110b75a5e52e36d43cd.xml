@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_map">
+    <sys_transform_map action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copy_empty_fields>false</copy_empty_fields>
+        <create_new_record_on_empty_coalesce_fields>false</create_new_record_on_empty_coalesce_fields>
+        <enforce_mandatory_fields>No</enforce_mandatory_fields>
+        <name>TM for allocationdata </name>
+        <order>100</order>
+        <run_business_rules>false</run_business_rules>
+        <run_script>true</run_script>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    // Add your code here
+    // Get student preferences
+    var preference1 = target.university1.toString();
+    var preference2 = target.university2.toString();
+    var preference3 = target.university3.toString();
+	
+
+    // Query university table for available seats
+    var universities = new GlideRecord('x_1052872_needit_university_enrollment_table');
+    universities.query();
+	while (universities.next()) {
+    var universityName = universities.u_string_2.toString();
+    var availableSeats = universities.total_available_seats.toString();
+    
+	if (preference1 === universityName && availableSeats > 0) {
+      // Allocate preference1 university to the student
+      target.university_alloted = preference1;
+      universities.total_available_seats = universities.total_available_seats-1;
+      universities.update();
+      break;
+    } else if (preference2 === universityName && availableSeats > 0) {
+      // Allocate preference2 university to the student
+      target.university_alloted = preference2;
+      universities.total_available_seats = universities.total_available_seats-1;
+      universities.update();
+      break;
+    } else if (preference3 === universityName && availableSeats > 0) {
+      // Allocate preference3 university to the student
+      target.university_alloted = preference3;
+      universities.total_available_seats = universities.total_available_seats-1;
+      universities.update();
+      break;
+    }
+  }
+  
+  return;
+
+
+})(source, map, log, target);]]></script>
+        <source_table>x_1052872_needit_student_university</source_table>
+        <sys_class_name>sys_transform_map</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-13 12:09:19</sys_created_on>
+        <sys_id>78e1504d47443110b75a5e52e36d43cd</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>TM for allocationdata </sys_name>
+        <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+        <sys_update_name>sys_transform_map_78e1504d47443110b75a5e52e36d43cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-14 07:13:26</sys_updated_on>
+        <target_table>x_1052872_needit_student_university_info</target_table>
+    </sys_transform_map>
+</record_update>

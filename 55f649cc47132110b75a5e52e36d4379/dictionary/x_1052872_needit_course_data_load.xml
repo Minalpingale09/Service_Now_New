@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="eef897a147bb2110b75a5e52e36d4352" extends="sys_import_set_row" label="courses.csv (Uploaded)" max_length="40" name="x_1052872_needit_course_data_load" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=field_1" label="field_1" max_length="40" name="u_field_1" type="string"/>
+    </element>
+</database>

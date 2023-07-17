@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_1052872_needit_course_table_general</description>
+        <name>x_1052872_needit_course_table_general</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-03 05:09:36</sys_created_on>
+        <sys_id>a512d7e9477b2110b75a5e52e36d43d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1052872_needit_course_table_general</sys_name>
+        <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+        <sys_update_name>sys_security_acl_a512d7e9477b2110b75a5e52e36d43d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 05:09:36</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</application>
+        <file_path/>
+        <instance_id>fdeee233dbd75b4489535d00cf96193d</instance_id>
+        <instance_name>dev66333</instance_name>
+        <name>sys_security_acl_a512d7e9477b2110b75a5e52e36d43d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_1052872_needit_course_table_general</description><name>x_1052872_needit_course_table_general</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-07-03 05:09:36</sys_created_on><sys_id>a512d7e9477b2110b75a5e52e36d43d4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1052872_needit_course_table_general</sys_name><sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package><sys_policy/><sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope><sys_update_name>sys_security_acl_a512d7e9477b2110b75a5e52e36d43d4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-07-03 05:09:36</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-337658564</payload_hash>
+        <record_name>x_1052872_needit_course_table_general</record_name>
+        <reverted_from/>
+        <source>8a0c990047d32110b75a5e52e36d4378</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-03 05:09:36</sys_created_on>
+        <sys_id>e512d7e9477b2110b75a5e52e36d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1891a27ffa40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-03 05:09:36</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>2112d7e9407b2110d7855b76571582d6</update_guid>
+        <update_guid_history>2112d7e9407b2110d7855b76571582d6:-337658564</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-07 10:09:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>00f5fc62176b4501809a0a6190ed67e1</sys_id>
+        <sys_metadata>a512d7e9477b2110b75a5e52e36d43d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1052872_needit_course_table_general</sys_name>
+        <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+        <sys_parent display_value="">a512d7e9477b2110b75a5e52e36d43de</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+        <sys_scope_delete display_value="">411510a8df604654945e7dca5ec03b61</sys_scope_delete>
+        <sys_update_name>sys_security_acl_a512d7e9477b2110b75a5e52e36d43d4</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_a512d7e9477b2110b75a5e52e36d43d4">e512d7e9477b2110b75a5e52e36d43d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-07 10:09:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

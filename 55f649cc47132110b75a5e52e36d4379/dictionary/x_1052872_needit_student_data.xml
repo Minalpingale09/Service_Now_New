@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f3798b5647772110b75a5e52e36d43bc" extends="sys_import_set_row" label="Student Data" max_length="40" name="x_1052872_needit_student_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Grade" label="Grade" max_length="40" name="u_grade" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Location" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student id" label="Student id" max_length="40" name="u_student_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Student name" label="Student name" max_length="40" name="u_student_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=University code" label="University code" max_length="40" name="u_university_code" type="string"/>
+    </element>
+</database>

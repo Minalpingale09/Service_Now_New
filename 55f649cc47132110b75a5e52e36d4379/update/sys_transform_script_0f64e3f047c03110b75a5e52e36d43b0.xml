@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <map display_value="Student+university info">02b0e2a447443110b75a5e52e36d434f</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    // Add your code here
+    // Get student preferences
+    var preference1 = source.university1.toString();
+    var preference2 = source.university2.toString();
+    var preference3 = source.university3.toString();
+
+    // Query university table for available seats
+    var universities = new GlideRecord('x_1052872_needit_university_enrollment_table');
+    universities.query();
+	while (universities.next()) {
+    var universityName = universities.u_string_2.toString();
+    var availableSeats = universities.total_available_seats.toString();
+    
+	if (preference1 === universityName && availableSeats > 0) {
+      // Allocate preference1 university to the student
+      target.university_alloted = preference1;
+      universities.total_available_seats = universities.total_available_seats-1;
+      universities.update();
+      break;
+    } else if (preference2 === universityName && availableSeats > 0) {
+      // Allocate preference2 university to the student
+      target.university_alloted = preference2;
+      universities.total_available_seats = universities.total_available_seats-1;
+      universities.update();
+      break;
+    } else if (preference3 === universityName && availableSeats > 0) {
+      // Allocate preference3 university to the student
+      target.university_alloted = preference3;
+      universities.total_available_seats = universities.total_available_seats-1;
+      universities.update();
+      break;
+    }
+  }
+  
+  return;
+
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-07-13 10:07:23</sys_created_on>
+        <sys_id>0f64e3f047c03110b75a5e52e36d43b0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+        <sys_update_name>sys_transform_script_0f64e3f047c03110b75a5e52e36d43b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-07-13 11:49:13</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>
