@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="31e2f1b147f47110b75a5e52e36d4377" sys_domain="global" table="x_1052872_needit_needit_task" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-22 09:55:01</sys_created_on>
+            <sys_id>71e2f1b147f47110b75a5e52e36d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1052872_needit_needit_task" sys_domain="global" view="Default view">31e2f1b147f47110b75a5e52e36d4377</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-22 09:55:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-22 09:55:01</sys_created_on>
+            <sys_id>f1e2f1b147f47110b75a5e52e36d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1052872_needit_needit_task" sys_domain="global" view="Default view">31e2f1b147f47110b75a5e52e36d4377</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-22 09:55:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-22 09:55:01</sys_created_on>
+            <sys_id>75e2f1b147f47110b75a5e52e36d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1052872_needit_needit_task" sys_domain="global" view="Default view">31e2f1b147f47110b75a5e52e36d4377</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-22 09:55:01</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-22 09:55:01</sys_created_on>
+            <sys_id>f5e2f1b147f47110b75a5e52e36d4399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1052872_needit_needit_task" sys_domain="global" view="Default view">31e2f1b147f47110b75a5e52e36d4377</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-22 09:55:01</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1052872_needit_needit_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-08-22 09:55:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>31e2f1b147f47110b75a5e52e36d4377</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1052872_needit_needit_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+            <sys_update_name>sys_ui_section_31e2f1b147f47110b75a5e52e36d4377</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-08-22 09:55:00</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</application>
+        <file_path/>
+        <instance_id>fdeee233dbd75b4489535d00cf96193d</instance_id>
+        <instance_name>dev66333</instance_name>
+        <name>sys_ui_section_31e2f1b147f47110b75a5e52e36d4377</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="31e2f1b147f47110b75a5e52e36d4377" sys_domain="global" table="x_1052872_needit_needit_task" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-22 09:55:01</sys_created_on><sys_id>71e2f1b147f47110b75a5e52e36d4399</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1052872_needit_needit_task" sys_domain="global" view="Default view">31e2f1b147f47110b75a5e52e36d4377</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-22 09:55:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-22 09:55:01</sys_created_on><sys_id>f1e2f1b147f47110b75a5e52e36d4399</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1052872_needit_needit_task" sys_domain="global" view="Default view">31e2f1b147f47110b75a5e52e36d4377</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-22 09:55:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-22 09:55:01</sys_created_on><sys_id>75e2f1b147f47110b75a5e52e36d4399</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1052872_needit_needit_task" sys_domain="global" view="Default view">31e2f1b147f47110b75a5e52e36d4377</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-22 09:55:01</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-22 09:55:01</sys_created_on><sys_id>f5e2f1b147f47110b75a5e52e36d4399</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="New Section" display_value="New Section" name="x_1052872_needit_needit_task" sys_domain="global" view="Default view">31e2f1b147f47110b75a5e52e36d4377</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-22 09:55:01</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_1052872_needit_needit_task</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-08-22 09:55:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>31e2f1b147f47110b75a5e52e36d4377</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1052872_needit_needit_task</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package><sys_policy/><sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope><sys_update_name>sys_ui_section_31e2f1b147f47110b75a5e52e36d4377</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-08-22 09:55:00</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1263573190</payload_hash>
+        <record_name>NeedIt Task</record_name>
+        <reverted_from/>
+        <source>8a0c990047d32110b75a5e52e36d4378</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 09:55:01</sys_created_on>
+        <sys_id>fde2f1b147f47110b75a5e52e36d43b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a1cab46f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 09:55:01</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>79e2f1b1def4711026afe65d96e6e9b0</update_guid>
+        <update_guid_history>79e2f1b1def4711026afe65d96e6e9b0:-1263573190</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-22 09:55:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>61d6f27174f64f0c8b52bc6336cacb10</sys_id>
+        <sys_metadata>31e2f1b147f47110b75a5e52e36d4377</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="NeedIt" source="x_1052872_needit">55f649cc47132110b75a5e52e36d4379</sys_package>
+        <sys_parent display_value="NeedIt Task">be39c9e147b43110b75a5e52e36d4344</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
+        <sys_scope_delete display_value="">411510a8df604654945e7dca5ec03b61</sys_scope_delete>
+        <sys_update_name>sys_ui_section_31e2f1b147f47110b75a5e52e36d4377</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_31e2f1b147f47110b75a5e52e36d4377">fde2f1b147f47110b75a5e52e36d43b0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-22 09:55:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

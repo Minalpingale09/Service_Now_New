@@ -5,18 +5,18 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>3</choice>
+        <choice>2</choice>
         <choice_field/>
         <choice_table/>
         <column_label>What needed</column_label>
         <comments/>
         <create_roles/>
-        <default_value>legal1</default_value>
+        <default_value>Option1</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -53,7 +53,7 @@
         <sys_scope display_value="NeedIt">55f649cc47132110b75a5e52e36d4379</sys_scope>
         <sys_update_name>sys_dictionary_x_1052872_needit_needit_u_what_needed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-06-20 05:59:03</sys_updated_on>
+        <sys_updated_on>2023-08-28 05:04:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
